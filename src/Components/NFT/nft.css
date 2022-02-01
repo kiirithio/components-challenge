@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle:wght@300;700&family=Outfit&family=Rouge+Script&display=swap');
+/* body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+} */
+.main2{
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(217, 54%, 11%);
+   
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    line-height: 1em; 
+    
+    background-color:hsl(216, 50%, 16%) ;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+img{
+    border-radius: 20px;
+    
+}
+p{
+    color: hsl(215, 51%, 70%);
+    
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+    
+}
+ul img{
+    width: 16px;
+    height: 20px;
+    padding-right: 5px;
+}
+ul li p{
+    display: inline;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.avat{
+    width: 36px;
+    height: 36px;
+    border: 2px white solid;
+}
+.avatColumn{
+    border-top: 1px hsl(215, 51%, 70%) solid;
+    gap: 18px;
+    align-items: center;
+    display: flex;
+    
+}
+span{
+    color: hsl(0, 0%, 100%)
+}

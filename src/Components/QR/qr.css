@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle:wght@300;700&family=Outfit&family=Rouge+Script&display=swap');
+body{
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+}
+.main{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 20px;  
+}
+img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: hsl(212, 45%, 89%);
+}
